@@ -1,0 +1,69 @@
+[gd_scene load_steps=3 format=3 uid="uid://cks80op6fsxdr"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_lbtlk"]
+[ext_resource type="Texture2D" uid="uid://cc4vrha874pvy" path="res://icons/wrench.png" id="2_5eyxm"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_lbtlk")
+
+[node name="BackgroundColor" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.596078, 0.815686, 0.396078, 1)
+
+[node name="EmotionContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -25.0
+offset_bottom = 25.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="ReactLabel" type="Label" parent="EmotionContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+text = "You should react with:"
+horizontal_alignment = 1
+
+[node name="EmotionLabel" type="Label" parent="EmotionContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+text = "EMOTION"
+horizontal_alignment = 1
+
+[node name="Tree" type="Tree" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.05
+anchor_right = 1.0
+anchor_bottom = 0.95
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 48
+hide_folding = true
+
+[node name="SettingsButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -100.0
+offset_bottom = 100.0
+grow_horizontal = 0
+texture_normal = ExtResource("2_5eyxm")

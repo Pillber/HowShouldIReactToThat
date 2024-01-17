@@ -1,0 +1,12 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1705450924
+export_presets.cfg::TextFile::-1::1705202780::0::1::::<><>::
+main.gd::GDScript::-1::1705450448::0::1::::<>Control<>::
+main.tscn::PackedScene::5513937668863399891::1705450924::0::1::::<><>::res://main.gd<>uid://cc4vrha874pvy::::res://icons/wrench.png
+::res://android/::1705203188
+::res://icons/::1705450924
+cross.png::CompressedTexture2D::8464997335991098911::1705262169::1705450925::1::::<><>::
+icon.svg::CompressedTexture2D::6960446733370402048::1705201114::1705450925::1::::<><>::
+plus.png::CompressedTexture2D::4704052000758136442::1705357630::1705450925::1::::<><>::
+return.png::CompressedTexture2D::6172064649546529350::1705435463::1705450925::1::::<><>::
+wrench.png::CompressedTexture2D::4974391794081220006::1705261168::1705450925::1::::<><>::
